@@ -1,4 +1,3 @@
-
 #YOLOV5
 
 YOLO an acronym for 'You only look once', is an object detection algorithm that divides images into a grid system. Each cell in the grid is responsible for detecting objects within itself.
@@ -127,7 +126,7 @@ Section 6
 -We can also freeze 10 layers for example and then add the parameter –freeze when training
 
 
-#YOLOV7
+##YOLOV7
 
 Yolov7 is a real-time object detector currently revolutionizing the computer vision industry with its incredible features. The official YOLOv7 provides unbelievable speed and accuracy compared to its previous versions. Yolov7 weights are trained using Microsoft’s COCO dataset, and no pre-trained weights are used.
 
