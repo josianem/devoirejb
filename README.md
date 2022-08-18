@@ -1,6 +1,5 @@
-# devoirejb
 
-**YOLOV5**
+<span style="font-size:larger;">YOLOV5</span>
 
 1. Explanation about the files in the ‘yolov5/important docs’ folder:
 - Convert\_pascaltoyolo.ipynb: this script is to run on google colab, to convert the labels from pascal to yolo.
@@ -118,8 +117,7 @@ Section 6
 -We can also freeze 10 layers for example and then add the parameter –freeze when training
 
 
-
-**YOLOV7**
+<span style="font-size:larger;">YOLOV7</span>
 
 1. Explanation about the files in the ‘yolov7/important docs’ folder:
 - Convert\_pascaltoyolo.ipynb: this script is to run on google colab, to convert the labels from pascal to yolo.
