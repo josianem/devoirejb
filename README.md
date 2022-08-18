@@ -1,5 +1,15 @@
 
-<span style="font-size:larger;">YOLOV5</span>
+#YOLOV5
+
+YOLO an acronym for 'You only look once', is an object detection algorithm that divides images into a grid system. Each cell in the grid is responsible for detecting objects within itself.
+
+YOLO is one of the most famous object detection algorithms due to its speed and accuracy.
+YOLOv5 is a family of object detection architectures and models pretrained on the COCO dataset, and represents Ultralytics open-source research into future vision AI methods, incorporating lessons learned and best practices evolved over thousands of hours of research and development.
+See the [YOLOv5 Docs](https://docs.ultralytics.com) for full documentation on training, testing and deployment.
+
+![image](https://user-images.githubusercontent.com/61906871/185408179-aae7ba79-fbe9-43d5-a86a-fbf7bc4766bc.png)
+
+![image](https://user-images.githubusercontent.com/61906871/185408226-869442b2-99e5-4370-8ef9-994c9a927724.png)
 
 1. Explanation about the files in the ‘yolov5/important docs’ folder:
 - Convert\_pascaltoyolo.ipynb: this script is to run on google colab, to convert the labels from pascal to yolo.
@@ -117,7 +127,20 @@ Section 6
 -We can also freeze 10 layers for example and then add the parameter –freeze when training
 
 
-<span style="font-size:larger;">YOLOV7</span>
+#YOLOV7
+
+Yolov7 is a real-time object detector currently revolutionizing the computer vision industry with its incredible features. The official YOLOv7 provides unbelievable speed and accuracy compared to its previous versions. Yolov7 weights are trained using Microsoft’s COCO dataset, and no pre-trained weights are used.
+
+The paper states that the model can efficiently predict video inputs ranging from 5FPS to 160FPS. Among all real-time object detectors, YOLOv7 has the highest Average Precision (AP) score of 56.8% creating impressive records.
+
+Yolov7 outperformed both transformer-based object detectors and convolutional-based object detectors. Some of the object detectors that Yolov7 outperformed were YOLOR, YOLOX, Scaled-YOLOv4, YOLOv5, DETR, Deformable DETR, DINO-5scale-R50, ViT-Adapter-B, etc.
+![image](https://user-images.githubusercontent.com/61906871/185407059-c0f952f0-338c-444d-b4e0-5bf5f0da5fa4.png)
+
+![image](https://user-images.githubusercontent.com/61906871/185407156-e48661a4-3ed9-4314-b68a-ca61ae935c92.png)
+
+Implementation of paper - [YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors](https://arxiv.org/abs/2207.02696)
+The word Bag of Freebies model refers to increasing the model accuracy by making improvements without actually increasing the training cost. Older versions like YOLOv4 also used the Bag of Freebies model. 
+
 
 1. Explanation about the files in the ‘yolov7/important docs’ folder:
 - Convert\_pascaltoyolo.ipynb: this script is to run on google colab, to convert the labels from pascal to yolo.
